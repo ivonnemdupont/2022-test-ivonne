@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 
 import "./Starships.css";
 
@@ -12,23 +12,21 @@ import { baseURL } from "../../constants";
 export default function Starships() {
   const [starshipList, setStarshipsList] = useState([]);
   const [nextPage, setNextPage] = useState("");
-  const [previousPage, setPreviousPage] = useState("");
-
-  const [current, setCurrent] = useState(0);
+  //const [previousPage, setPreviousPage] = useState("");
 
   useEffect(() => {
     const getStarships = async () => {
       const response = await loadData(baseURL + "starships/");
       setStarshipsList(response.results);
       setNextPage(response.next);
-      setPreviousPage(response.previous);
+      //setPreviousPage(response.previous);
     };
     getStarships();
 
     return () => {
       setStarshipsList([]);
       setNextPage();
-      setPreviousPage();
+      //setPreviousPage();
     };
   }, []);
 
