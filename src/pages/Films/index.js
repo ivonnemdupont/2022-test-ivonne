@@ -50,7 +50,7 @@ export default function Films () {
               filmList.length < 7 ? (
                 <Button open={viewMore} text={'More'} name={'view__button'} />
               ) : (
-                <Button open={setNextPage} text={'Top'} name={'view__button'} />
+                <Button open={goToTop} text={'Top'} name={'view__button'} />
               )
             }
 
