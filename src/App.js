@@ -24,18 +24,18 @@ function App() {
     <BrowserRouter>
       <NavBar />
       <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route exact path="/people" element={<Actor />} />
-        <Route exact path="/people/:id" element={<ActorDetails />} />
-        <Route exact path="/starships" element={<Starships />} />
-        <Route exact path="/starships/:id" element={<StarshipDetails />} />
-        <Route exact path="/planets" element={<Planets />} />
-        <Route exact path="/planets/:id" element={<PlanetDetails />} />
-        <Route exact path="/films" element={<Films />} />
-        <Route exact path="/films/:id" element={<FilmDetails />} />
-        <Route exact path="/vehicles" element={<Vehicles />} />
-        <Route exact path="/vehicles/:id" element={<VehiclesDetails />} />
-        <Route exact path="/about" element={<About />} />
+        <Route exact path="/2022-test-ivonne/" element={<Home />} />
+        <Route exact path="/2022-test-ivonne//people" element={<Actor />} />
+        <Route exact path="/2022-test-ivonne/people/:id" element={<ActorDetails />} />
+        <Route exact path="/2022-test-ivonne/starships" element={<Starships />} />
+        <Route exact path="/2022-test-ivonne/starships/:id" element={<StarshipDetails />} />
+        <Route exact path="/2022-test-ivonne/planets" element={<Planets />} />
+        <Route exact path="/2022-test-ivonne/planets/:id" element={<PlanetDetails />} />
+        <Route exact path="/2022-test-ivonne/films" element={<Films />} />
+        <Route exact path="/2022-test-ivonne/films/:id" element={<FilmDetails />} />
+        <Route exact path="/2022-test-ivonne/vehicles" element={<Vehicles />} />
+        <Route exact path="/2022-test-ivonne/vehicles/:id" element={<VehiclesDetails />} />
+        <Route exact path="/2022-test-ivonne/about" element={<About />} />
       </Routes>
       {/*<Footer />*/}
     </BrowserRouter>
