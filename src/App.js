@@ -25,7 +25,7 @@ function App() {
       <NavBar />
       <Routes>
         <Route exact path="/2022-test-ivonne/" element={<Home />} />
-        <Route exact path="/2022-test-ivonne//people" element={<Actor />} />
+        <Route exact path="/2022-test-ivonne/people" element={<Actor />} />
         <Route exact path="/2022-test-ivonne/people/:id" element={<ActorDetails />} />
         <Route exact path="/2022-test-ivonne/starships" element={<Starships />} />
         <Route exact path="/2022-test-ivonne/starships/:id" element={<StarshipDetails />} />

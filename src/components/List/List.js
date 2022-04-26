@@ -20,7 +20,7 @@ export default function List({ list, page }) {
                 className="list__item"
                 data-testid={`element-${index}`}
               >
-                <Link to={`/starships/${starship.url.match(/[0-9]+/)}`}>
+                <Link to={`/2022-test-ivonne/starships/${starship.url.match(/[0-9]+/)}`}>
                   <h3>{starship.name}</h3>
                 </Link>
               </li>
@@ -32,7 +32,7 @@ export default function List({ list, page }) {
           list.map((person, index) => {
             return (
               <li key={index} className="list__item list__item--people">
-                <Link to={`/people/${person.url.match(/[0-9]+/)}`}>
+                <Link to={`/2022-test-ivonne/people/${person.url.match(/[0-9]+/)}`}>
                   <h3>{person.name}</h3>
                 </Link>
               </li>
@@ -44,7 +44,7 @@ export default function List({ list, page }) {
           list.map((planet, index) => {
             return (
               <li key={index} className="list__item list__item--planet">
-                <Link to={`/planets/${planet.url.match(/[0-9]+/)}`}>
+                <Link to={`/2022-test-ivonne/planets/${planet.url.match(/[0-9]+/)}`}>
                   <h3>{planet.name}</h3>
                 </Link>
               </li>
@@ -56,7 +56,7 @@ export default function List({ list, page }) {
           list.map((film, index) => {
             return (
               <li key={index} className="list__item list__item--film">
-                <Link to={`/films/${film.url.match(/[0-9]+/)}`}>
+                <Link to={`/2022-test-ivonne/films/${film.url.match(/[0-9]+/)}`}>
                   <h3>{film.title}</h3>
                 </Link>
               </li>
@@ -68,7 +68,7 @@ export default function List({ list, page }) {
           list.map((vehicle, index) => {
             return (
               <li key={index} className="list__item list__item--vehicle">
-                <Link to={`/vehicles/${vehicle.url.match(/[0-9]+/)}`}>
+                <Link to={`/2022-test-ivonne/vehicles/${vehicle.url.match(/[0-9]+/)}`}>
                   <h3>{vehicle.name}</h3>
                 </Link>
               </li>
