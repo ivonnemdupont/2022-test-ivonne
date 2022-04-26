@@ -1,0 +1,57 @@
+.details {
+    width: 35%;
+    margin: 0 auto 5em;
+    text-align: left;
+    color: var(--primary-color);
+  }
+   
+  .details__bar,
+  .details__info {
+    position: relative;
+    top: -6px;
+    border-radius: 30px;
+  }
+  
+  .details__bar {
+    background-color: var(--primary-color);
+    height: 2px;
+  }
+  
+  .details__info {
+    padding: 0 1em 1em;
+    background-color: var(--grey-color);
+  }
+  
+  .details__info h2 {
+    margin-top: 0;
+    padding-top: 1em;
+    font-size: 2rem;
+    color: var(--white);
+    text-align: center;
+  }
+  
+  .details__planets {
+    display: flex;
+  }
+  
+  .details__planets div {
+    padding-right: 1em;
+    flex: 1;
+  }
+  
+  .details__planets p {
+    margin: 1.5em 0;
+  }
+  
+  .section__header {
+    font-size: 2rem;
+  }
+  
+  .section__empty {
+    width: 60%;
+    height: 100px;
+    margin: 0 auto;
+    padding: 1em;
+    background-color: var(--grey-color);
+  }
+  

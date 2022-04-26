@@ -1,0 +1,67 @@
+@import url(_reset.css);
+@import url(_variaveis.css);
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto:ital@1&display=swap" rel="stylesheet"');
+
+body {
+	background-color: var(--secundary-color);
+	color: var(--contrast-dark-color);
+	font-family: var(--family-body-font);
+}
+
+.container {
+	padding-right: 1rem;
+	padding-left: 1rem;
+}
+
+.flex {
+	display: flex;
+}
+
+.flex--center {
+	align-items: center;
+	justify-content: center;
+}
+
+.flex--column {
+	flex-direction: column;
+}
+
+.page-title {
+	display: flex;
+	align-items: center;
+	font-family: var(--family-body-title-page);
+	font-size: var(--font-size-page-title);
+	background-color: var(--contrast-light-color);
+	border-radius: 10px;
+	box-shadow: var(--shadow);
+	height: 4.75rem;
+	margin-top: 1.25rem;
+	margin-bottom: 2rem;
+	padding-left: 2rem;
+}
+
+.page-title-name {
+	justify-content: space-between;
+	margin: 0 1em 2em;
+	align-items: center;
+	margin-bottom: 0;
+	padding: 0.5em 0.6em;
+	color: var(--secundary-color);
+	background-color: var(--primary-color);
+	border-bottom: 1px solid var(--black);
+	font-size: 3rem;
+}
+
+@media(min-width: 800px) {
+	.container {
+		padding-right: 2.5rem;
+		padding-left: 2.5rem;
+	}
+}
+
+@media(min-width: 1200px) {
+	.container {
+		padding-left: calc((100vw - 900px)/2);
+		padding-right: calc((100vw - 900px)/2);
+	}
+}
