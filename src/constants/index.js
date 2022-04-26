@@ -1,3 +1,32 @@
+import img1 from '../assets/slider/actors.png'
+import img2 from '../assets/slider/actor-detail.png'
+import img3 from '../assets/slider/films.png'
+import img4 from '../assets/slider/startchips.png'
+import img5 from '../assets/slider/vehicles.png'
+
+const sliderData = [
+  {
+    image: img1,
+    link: '/people'
+  },
+  {
+    image: img2,                                          
+    link: '/people'
+  },
+  {
+    image: img3,
+    link: '/films'
+  },
+  {
+    image: img4,
+    link: '/startships'
+  },
+  {
+    image: img5,
+    link: '/vehicles'
+  }
+]
+
 const baseURL = "https://swapi.dev/api/";
 
 const filmsDetailsList = [
@@ -55,4 +84,4 @@ const speciesDetailsList = [
   "language"  
 ]
 
-export { baseURL, filmsDetailsList, starshipsDetailsList, vehiclesDetalsList, speciesDetailsList, actorsDetailsList };
+export { baseURL, filmsDetailsList, starshipsDetailsList, vehiclesDetalsList, speciesDetailsList, actorsDetailsList, sliderData};

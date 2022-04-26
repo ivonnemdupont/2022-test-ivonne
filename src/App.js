@@ -17,7 +17,7 @@ import ActorDetails from "./pages/ActorDetails/";
 import PlanetDetails from "./pages/PlanetDetails/";
 import FilmDetails from "./pages/FilmDetails/";
 import VehiclesDetails from "./pages/VehiclesDetails/";
-import About from "./pages/About/";
+import Demo from "./pages/Demo/";
 
 function App() {
   return (
@@ -35,7 +35,7 @@ function App() {
         <Route exact path="/films/:id" element={<FilmDetails />} />
         <Route exact path="/vehicles" element={<Vehicles />} />
         <Route exact path="/vehicles/:id" element={<VehiclesDetails />} />
-        <Route exact path="/about" element={<About />} />
+        <Route exact path="/demo" element={<Demo />} />
       </Routes>
       {/*<Footer />*/}
     </BrowserRouter>
