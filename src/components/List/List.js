@@ -1,6 +1,4 @@
 import { Link } from "react-router-dom";
-import InteractiveLink from '../../ui/InteractiveLink'
-
 
 import "./List.css";
 
@@ -23,9 +21,9 @@ export default function List({ list, page }) {
                 data-testid={`element-${index}`}
               >
 
-              <InteractiveLink to={`/2022-test-ivonne/starships/${starship.url.match(/[0-9]+/)}`}>
+              <Link to={`/2022-test-ivonne/starships/${starship.url.match(/[0-9]+/)}`}>
                   <h3>{starship.name}</h3>
-                </InteractiveLink>
+                </Link>
               </li>
             );
           })}
@@ -35,9 +33,9 @@ export default function List({ list, page }) {
           list.map((person, index) => {
             return (
               <li key={index} className="list__item list__item--people">
-                <InteractiveLink to={`/2022-test-ivonne/people/${person.url.match(/[0-9]+/)}`}>
+                <Link to={`/2022-test-ivonne/people/${person.url.match(/[0-9]+/)}`}>
                   <h3>{person.name}</h3>
-                </InteractiveLink>
+                </Link>
               </li>
             );
           })}
@@ -47,9 +45,9 @@ export default function List({ list, page }) {
           list.map((planet, index) => {
             return (
               <li key={index} className="list__item list__item--planet">
-                <InteractiveLink to={`/2022-test-ivonne/planets/${planet.url.match(/[0-9]+/)}`}>
+                <Link to={`/2022-test-ivonne/planets/${planet.url.match(/[0-9]+/)}`}>
                   <h3>{planet.name}</h3>
-                </InteractiveLink>
+                </Link>
               </li>
             );
           })}
@@ -71,9 +69,9 @@ export default function List({ list, page }) {
           list.map((vehicle, index) => {
             return (
               <li key={index} className="list__item list__item--vehicle">
-                <InteractiveLink to={`/2022-test-ivonne/vehicles/${vehicle.url.match(/[0-9]+/)}`}>
+                <Link to={`/2022-test-ivonne/vehicles/${vehicle.url.match(/[0-9]+/)}`}>
                   <h3>{vehicle.name}</h3>
-                </InteractiveLink>
+                </Link>
               </li>
             );
           })}
