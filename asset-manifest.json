@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/2022-test-ivonne/static/css/main.257598c8.css",
-    "main.js": "/2022-test-ivonne/static/js/main.c54a6266.js",
+    "main.css": "/2022-test-ivonne/static/css/main.423365d4.css",
+    "main.js": "/2022-test-ivonne/static/js/main.32e107ca.js",
     "static/media/banner.jpg": "/2022-test-ivonne/static/media/banner.d7b900fc84f7d1025334.jpg",
+    "static/media/films.png": "/2022-test-ivonne/static/media/films.2344a865fdc1140f6639.png",
+    "static/media/startchips.png": "/2022-test-ivonne/static/media/startchips.85667c66909afe04449a.png",
+    "static/media/actor-detail.png": "/2022-test-ivonne/static/media/actor-detail.6ceb81585f89f2d8b0a5.png",
+    "static/media/vehicles.png": "/2022-test-ivonne/static/media/vehicles.1238e41c9e0470b00918.png",
+    "static/media/actors.png": "/2022-test-ivonne/static/media/actors.d2dc01beb4c256837bf6.png",
     "static/media/logo.jpg": "/2022-test-ivonne/static/media/logo.5fe6dd1b6ea0bb28608e.jpg",
     "index.html": "/2022-test-ivonne/index.html",
     "static/media/menu.svg": "/2022-test-ivonne/static/media/menu.bcbef95ed1950afeb4b4.svg",
-    "main.257598c8.css.map": "/2022-test-ivonne/static/css/main.257598c8.css.map",
-    "main.c54a6266.js.map": "/2022-test-ivonne/static/js/main.c54a6266.js.map"
+    "main.423365d4.css.map": "/2022-test-ivonne/static/css/main.423365d4.css.map",
+    "main.32e107ca.js.map": "/2022-test-ivonne/static/js/main.32e107ca.js.map"
   },
   "entrypoints": [
-    "static/css/main.257598c8.css",
-    "static/js/main.c54a6266.js"
+    "static/css/main.423365d4.css",
+    "static/js/main.32e107ca.js"
   ]
 }
