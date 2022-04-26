@@ -21,7 +21,7 @@ import About from "./pages/About/";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <NavBar />
       <Routes>
         <Route exact path="/" element={<Home />} />
