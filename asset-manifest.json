@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/2022-test-ivonne/static/css/main.257598c8.css",
-    "main.js": "/2022-test-ivonne/static/js/main.56fded58.js",
+    "main.js": "/2022-test-ivonne/static/js/main.8beafb0b.js",
     "static/media/banner.jpg": "/2022-test-ivonne/static/media/banner.d7b900fc84f7d1025334.jpg",
     "static/media/logo.jpg": "/2022-test-ivonne/static/media/logo.5fe6dd1b6ea0bb28608e.jpg",
     "index.html": "/2022-test-ivonne/index.html",
     "static/media/menu.svg": "/2022-test-ivonne/static/media/menu.bcbef95ed1950afeb4b4.svg",
     "main.257598c8.css.map": "/2022-test-ivonne/static/css/main.257598c8.css.map",
-    "main.56fded58.js.map": "/2022-test-ivonne/static/js/main.56fded58.js.map"
+    "main.8beafb0b.js.map": "/2022-test-ivonne/static/js/main.8beafb0b.js.map"
   },
   "entrypoints": [
     "static/css/main.257598c8.css",
-    "static/js/main.56fded58.js"
+    "static/js/main.8beafb0b.js"
   ]
 }
