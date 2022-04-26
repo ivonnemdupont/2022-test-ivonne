@@ -2,6 +2,10 @@
 
 This project shows a Web Page using information from the SWAPI API.
 
+## Demo
+
+https://ivonnemdupont.github.io/
+
 ## Installation
 
 Use [npm](https://docs.npmjs.com/) package manager for installation.
