@@ -17,37 +17,37 @@ export default function NavBar() {
       <nav className="menu-nav-header">
         <ul className="menu-itens">
           <li>
-            <Link to="/2022-test-ivonne/" className="menu-item menu-item--enter">
+            <Link to="/" className="menu-item menu-item--enter">
               Home
             </Link>
           </li>
           <li>
-            <Link to="/2022-test-ivonne/people" className="menu-item">
+            <Link to="/people" className="menu-item">
               Actors
             </Link>
           </li>
           <li>
-            <Link to="/2022-test-ivonne/starships" className="menu-item">
+            <Link to="/starships" className="menu-item">
               Starships
             </Link>
           </li>
           <li>
-            <Link to="/2022-test-ivonne/planets" className="menu-item">
+            <Link to="/planets" className="menu-item">
               Planets
             </Link>
           </li>
           <li>
-            <Link to="/2022-test-ivonne/films" className="menu-item">
+            <Link to="/films" className="menu-item">
               Films
             </Link>
           </li>
           <li>
-            <Link to="/2022-test-ivonne/vehicles" className="menu-item">
+            <Link to="/vehicles" className="menu-item">
               Vehicles
             </Link>
           </li>
           <li>
-            <Link to="/2022-test-ivonne/about" className="menu-item">
+            <Link to="/about" className="menu-item">
               About
             </Link>
           </li>
