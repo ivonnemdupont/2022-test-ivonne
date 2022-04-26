@@ -2,7 +2,7 @@
   "name": "2022-test-ivonne",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ivonnemdupont.github.io",
+  "homepage": "https://ivonnemdupont.github.io/2022-test-ivonne/", 
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
